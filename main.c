@@ -18,7 +18,7 @@ int main()
     printf("c = ");
     scanf("%d", &c);
 
-    for (int i=c+(a%c); i<=b; i+=c)
+    for (int i=a; i<=b; i+=c)
     {
         if (i % c == 0) printf("%d ", i);
     }
