@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 #include <omp.h>
-#define COUNT 1000000
+#define COUNT 100000
 
 /*
  * Fejlesszen olyan alkalmazást, amely a felhasználó által megadott A és B egészérték közötti tartományban megkeresi (és összeszámolja)
@@ -35,11 +35,11 @@ int main()
 
     //printf("b = ");
     //scanf("%d", &b);
-    b = 1000;
+    b = 10000;
 
     //printf("c = ");
     //scanf("%d", &c);
-    c = 11;
+    c = 91;
 
     double startCalc, endCalc, runTime, non_opt;
 
